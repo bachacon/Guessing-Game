@@ -7,7 +7,7 @@ from Game import main
 
 def check_if_file_exists():
     try:
-        exists = os.path.exists("code_2.py")
+        exists = os.path.exists("Game.py")
         assert exists == True
     except:
         sys.exit()
